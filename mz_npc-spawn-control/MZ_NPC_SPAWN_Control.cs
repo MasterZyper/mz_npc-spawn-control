@@ -195,6 +195,7 @@ namespace mz_npc_spawn_control
                 }
                 else
                 {
+                    API.SetFarDrawVehicles(false);
                     API.SetVehicleDensityMultiplierThisFrame(0f);
                     API.SetRandomVehicleDensityMultiplierThisFrame(0f);
                 }
